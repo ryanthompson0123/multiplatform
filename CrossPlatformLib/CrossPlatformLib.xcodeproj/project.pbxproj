@@ -1,0 +1,332 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		949FE33F16F0CEAC005E053D /* XPView.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 949FE33D16F0CEAC005E053D /* XPView.cpp */; };
+		949FE34A16F0E276005E053D /* AndroidView.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 949FE34816F0E276005E053D /* AndroidView.cpp */; };
+		94A9CAC516EFCEDC00DD1FDD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 94A9CAC416EFCEDC00DD1FDD /* Foundation.framework */; };
+		94A9CAF616EFD39200DD1FDD /* XPController.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 94A9CAE916EFD39200DD1FDD /* XPController.cpp */; };
+		94A9CAF816EFD39200DD1FDD /* GPSHelper.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 94A9CAED16EFD39200DD1FDD /* GPSHelper.cpp */; };
+		94A9CAF916EFD39200DD1FDD /* GPSHelperAndroid.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 94A9CAEF16EFD39200DD1FDD /* GPSHelperAndroid.cpp */; };
+		94A9CAFA16EFD39200DD1FDD /* GPSHelperiOS.mm in Sources */ = {isa = PBXBuildFile; fileRef = 94A9CAF216EFD39200DD1FDD /* GPSHelperiOS.mm */; };
+		94A9CAFB16EFD39200DD1FDD /* GPSHelperWP.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 94A9CAF416EFD39200DD1FDD /* GPSHelperWP.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		94A9CABF16EFCEDC00DD1FDD /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/${PRODUCT_NAME}";
+			dstSubfolderSpec = 16;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		949FE33D16F0CEAC005E053D /* XPView.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = XPView.cpp; sourceTree = "<group>"; };
+		949FE33E16F0CEAC005E053D /* XPView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XPView.h; sourceTree = "<group>"; };
+		949FE34116F0D3FE005E053D /* XPLocation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XPLocation.h; sourceTree = "<group>"; };
+		949FE34816F0E276005E053D /* AndroidView.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = AndroidView.cpp; sourceTree = "<group>"; };
+		949FE34916F0E276005E053D /* AndroidView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AndroidView.h; sourceTree = "<group>"; };
+		94A9CAC116EFCEDC00DD1FDD /* libCrossPlatformLib.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libCrossPlatformLib.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		94A9CAC416EFCEDC00DD1FDD /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		94A9CAC816EFCEDC00DD1FDD /* CrossPlatformLib-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CrossPlatformLib-Prefix.pch"; sourceTree = "<group>"; };
+		94A9CAE816EFD39200DD1FDD /* XPController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XPController.h; sourceTree = "<group>"; };
+		94A9CAE916EFD39200DD1FDD /* XPController.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = XPController.cpp; sourceTree = "<group>"; };
+		94A9CAED16EFD39200DD1FDD /* GPSHelper.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = GPSHelper.cpp; sourceTree = "<group>"; };
+		94A9CAEE16EFD39200DD1FDD /* GPSHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GPSHelper.h; sourceTree = "<group>"; };
+		94A9CAEF16EFD39200DD1FDD /* GPSHelperAndroid.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = GPSHelperAndroid.cpp; sourceTree = "<group>"; };
+		94A9CAF016EFD39200DD1FDD /* GPSHelperAndroid.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GPSHelperAndroid.h; sourceTree = "<group>"; };
+		94A9CAF116EFD39200DD1FDD /* GPSHelperiOS.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GPSHelperiOS.h; sourceTree = "<group>"; };
+		94A9CAF216EFD39200DD1FDD /* GPSHelperiOS.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = GPSHelperiOS.mm; sourceTree = "<group>"; };
+		94A9CAF316EFD39200DD1FDD /* GPSHelperNative.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GPSHelperNative.h; sourceTree = "<group>"; };
+		94A9CAF416EFD39200DD1FDD /* GPSHelperWP.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = GPSHelperWP.cpp; sourceTree = "<group>"; };
+		94A9CAF516EFD39200DD1FDD /* GPSHelperWP.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GPSHelperWP.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		94A9CABE16EFCEDC00DD1FDD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				94A9CAC516EFCEDC00DD1FDD /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		949FE34416F0DF89005E053D /* Android */ = {
+			isa = PBXGroup;
+			children = (
+				94A9CAF016EFD39200DD1FDD /* GPSHelperAndroid.h */,
+				94A9CAEF16EFD39200DD1FDD /* GPSHelperAndroid.cpp */,
+				949FE34916F0E276005E053D /* AndroidView.h */,
+				949FE34816F0E276005E053D /* AndroidView.cpp */,
+			);
+			name = Android;
+			sourceTree = "<group>";
+		};
+		949FE34516F0DF8E005E053D /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				94A9CAF116EFD39200DD1FDD /* GPSHelperiOS.h */,
+				94A9CAF216EFD39200DD1FDD /* GPSHelperiOS.mm */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		949FE34616F0DF91005E053D /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				949FE34116F0D3FE005E053D /* XPLocation.h */,
+				949FE33E16F0CEAC005E053D /* XPView.h */,
+				949FE33D16F0CEAC005E053D /* XPView.cpp */,
+				94A9CAE816EFD39200DD1FDD /* XPController.h */,
+				94A9CAE916EFD39200DD1FDD /* XPController.cpp */,
+				94A9CAEE16EFD39200DD1FDD /* GPSHelper.h */,
+				94A9CAED16EFD39200DD1FDD /* GPSHelper.cpp */,
+				94A9CAF316EFD39200DD1FDD /* GPSHelperNative.h */,
+			);
+			name = Core;
+			sourceTree = "<group>";
+		};
+		949FE34716F0DFAA005E053D /* WP */ = {
+			isa = PBXGroup;
+			children = (
+				94A9CAF416EFD39200DD1FDD /* GPSHelperWP.cpp */,
+				94A9CAF516EFD39200DD1FDD /* GPSHelperWP.h */,
+			);
+			name = WP;
+			sourceTree = "<group>";
+		};
+		94A9CAB816EFCEDC00DD1FDD = {
+			isa = PBXGroup;
+			children = (
+				94A9CAC616EFCEDC00DD1FDD /* CrossPlatformLib */,
+				94A9CAC316EFCEDC00DD1FDD /* Frameworks */,
+				94A9CAC216EFCEDC00DD1FDD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		94A9CAC216EFCEDC00DD1FDD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				94A9CAC116EFCEDC00DD1FDD /* libCrossPlatformLib.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		94A9CAC316EFCEDC00DD1FDD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				94A9CAC416EFCEDC00DD1FDD /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		94A9CAC616EFCEDC00DD1FDD /* CrossPlatformLib */ = {
+			isa = PBXGroup;
+			children = (
+				949FE34616F0DF91005E053D /* Core */,
+				949FE34516F0DF8E005E053D /* iOS */,
+				949FE34416F0DF89005E053D /* Android */,
+				949FE34716F0DFAA005E053D /* WP */,
+				94A9CAC716EFCEDC00DD1FDD /* Supporting Files */,
+			);
+			path = CrossPlatformLib;
+			sourceTree = "<group>";
+		};
+		94A9CAC716EFCEDC00DD1FDD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				94A9CAC816EFCEDC00DD1FDD /* CrossPlatformLib-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		94A9CAC016EFCEDC00DD1FDD /* CrossPlatformLib */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 94A9CACF16EFCEDC00DD1FDD /* Build configuration list for PBXNativeTarget "CrossPlatformLib" */;
+			buildPhases = (
+				94A9CABD16EFCEDC00DD1FDD /* Sources */,
+				94A9CABE16EFCEDC00DD1FDD /* Frameworks */,
+				94A9CABF16EFCEDC00DD1FDD /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CrossPlatformLib;
+			productName = CrossPlatformLib;
+			productReference = 94A9CAC116EFCEDC00DD1FDD /* libCrossPlatformLib.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		94A9CAB916EFCEDC00DD1FDD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Ryan Thompson";
+			};
+			buildConfigurationList = 94A9CABC16EFCEDC00DD1FDD /* Build configuration list for PBXProject "CrossPlatformLib" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 94A9CAB816EFCEDC00DD1FDD;
+			productRefGroup = 94A9CAC216EFCEDC00DD1FDD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				94A9CAC016EFCEDC00DD1FDD /* CrossPlatformLib */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		94A9CABD16EFCEDC00DD1FDD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				94A9CAF616EFD39200DD1FDD /* XPController.cpp in Sources */,
+				94A9CAF816EFD39200DD1FDD /* GPSHelper.cpp in Sources */,
+				94A9CAF916EFD39200DD1FDD /* GPSHelperAndroid.cpp in Sources */,
+				94A9CAFA16EFD39200DD1FDD /* GPSHelperiOS.mm in Sources */,
+				94A9CAFB16EFD39200DD1FDD /* GPSHelperWP.cpp in Sources */,
+				949FE33F16F0CEAC005E053D /* XPView.cpp in Sources */,
+				949FE34A16F0E276005E053D /* AndroidView.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		94A9CACD16EFCEDC00DD1FDD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		94A9CACE16EFCEDC00DD1FDD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		94A9CAD016EFCEDC00DD1FDD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = YES;
+				DSTROOT = /tmp/CrossPlatformLib.dst;
+				GCC_INPUT_FILETYPE = sourcecode.cpp.objcpp;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CrossPlatformLib/CrossPlatformLib-Prefix.pch";
+				HEADER_SEARCH_PATHS = (
+					"../**",
+					"${JAVA_HOME}/include/**",
+				);
+				JAVA_HOME = /java;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		94A9CAD116EFCEDC00DD1FDD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = YES;
+				DSTROOT = /tmp/CrossPlatformLib.dst;
+				GCC_INPUT_FILETYPE = sourcecode.cpp.objcpp;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CrossPlatformLib/CrossPlatformLib-Prefix.pch";
+				HEADER_SEARCH_PATHS = (
+					"../**",
+					"${JAVA_HOME}/include/**",
+				);
+				JAVA_HOME = /java;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		94A9CABC16EFCEDC00DD1FDD /* Build configuration list for PBXProject "CrossPlatformLib" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				94A9CACD16EFCEDC00DD1FDD /* Debug */,
+				94A9CACE16EFCEDC00DD1FDD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		94A9CACF16EFCEDC00DD1FDD /* Build configuration list for PBXNativeTarget "CrossPlatformLib" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				94A9CAD016EFCEDC00DD1FDD /* Debug */,
+				94A9CAD116EFCEDC00DD1FDD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 94A9CAB916EFCEDC00DD1FDD /* Project object */;
+}
